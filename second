@@ -1,0 +1,15 @@
+import BaseHttpServer
+ 
+class RequestHandler(BaseHttpServer.BaseHttpRequestHandler:
+    """docstring for RequestHandler(BaseHttpServer.BaseHttpRequestHandler"""
+ 
+        #page model
+        Page = '''\
+            <html>
+            <body>
+            <p>I believe in you, Web!</p>
+            </body>
+            </html>
+            '''
+ 
+        #deal with a get request
