@@ -8,8 +8,6 @@ class RequestHandler(BaseHttpServer.BaseHttpRequestHandler:
             <html>
             <body>
             <p>I believe in you, Web!</p>
-            </body>
-            </html>
-            '''
+            
  
         #deal with a get request
